@@ -7,6 +7,10 @@
 body {
   height: 200vh;
 }
+.link-list {
+  display: inline !important;
+  margin-top: 2rem;
+}
 
 @media (min-width: 1014px) {
   .hamburguer-button {
@@ -23,13 +27,12 @@ body {
     padding-left: 0 !important;
     display: flex !important;
     justify-content: center !important;
+    
   }
 }
+
 .link-matricula {
   text-decoration: none !important;
-}
-.link-list {
-  margin-top: 1rem;
 }
 
 .links-navbar {
@@ -47,4 +50,18 @@ body {
   position: absolute;
   left: -45px;
   top: -15px;
+}
+
+.links-navbar-mobile{
+  position: relative;
+  text-decoration: none !important;
+}
+
+
+.links-navbar-mobile:hover:after {
+  content: url(./assets/hover-navbar/planta-navbar.svg);
+  display: block;
+  position: absolute;
+  left: -45px;
+  top: -1px;
 }

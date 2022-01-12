@@ -27,7 +27,6 @@ body {
     padding-left: 0 !important;
     display: flex !important;
     justify-content: center !important;
-    
   }
 }
 
@@ -52,11 +51,10 @@ body {
   top: -15px;
 }
 
-.links-navbar-mobile{
+.links-navbar-mobile {
   position: relative;
   text-decoration: none !important;
 }
-
 
 .links-navbar-mobile:hover:after {
   content: url(./assets/hover-navbar/planta-navbar.svg);
@@ -66,17 +64,17 @@ body {
   top: -1px;
 }
 
-.welcome-background{
+.welcome-background {
   z-index: -1;
-  background-image:url(./assets/background.svg);
-  height: 100vh; 
+  background-image: url(./assets/background.svg);
+  height: 100vh;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.main{
+/* .main{
   position: absolute;
   height: auto;
   width: 80%;
@@ -85,8 +83,8 @@ body {
   left:50%;
   transform: translate(-50%,-50%);
   text-align: center;
-}
-.main h1{
+} */
+.main h1 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -94,10 +92,8 @@ body {
   text-align: center;
   font-size: 4.8em;
   font-weight: 700;
-
 }
-.main h1 div{
-
+.main h1 div {
   margin: 0;
   position: relative;
   width: auto;
@@ -108,63 +104,63 @@ body {
   text-align: center;
 }
 
-.main h1 div ul{
-  margin-top:-0.1em ;
-  padding:0;
+.main h1 div ul {
+  margin-top: -0.1em;
+  padding: 0;
   width: 30rem;
   text-align: left;
-  animation:animate 6s linear infinite;
+  animation: animate 6s linear infinite;
 }
 
-@keyframes animate{
-  0%{
-      transform: translateY(0px);
+@keyframes animate {
+  0% {
+    transform: translateY(0px);
   }
-  30%{
-      transform: translateY(0px);
+  30% {
+    transform: translateY(0px);
   }
-  40%{
-      transform: translateY(-66px);
+  40% {
+    transform: translateY(-73px);
   }
-  65%{
-      transform: translateY(-66px);
+  65% {
+    transform: translateY(-73px);
   }
-  75%,100%{
-      transform: translateY(-130px);
+  75%,
+  100% {
+    transform: translateY(-150px);
   }
 }
-.main h1 div ul li{
+.main h1 div ul li {
   list-style-type: none;
   height: 70px;
   width: auto;
 }
-.main p{
+.main p {
   position: relative;
   font-size: 1.5em;
   font-weight: 500;
   color: #ff0;
   letter-spacing: 2px;
-  margin-left:-5%;
-
+  margin-left: -5%;
 }
-.try span:nth-of-type(4n-3){
-color:#2176ff;
+.try span:nth-of-type(4n-3) {
+  color: #2176ff;
 }
-.try span:nth-of-type(4n-2){
-color:#ff86c8;
+.try span:nth-of-type(4n-2) {
+  color: #ff86c8;
 }
-.try span:nth-of-type(4n-1){
-color:#fa9348;
+.try span:nth-of-type(4n-1) {
+  color: #fa9348;
 }
-.try span:nth-of-type(4n){
-color:#b25926;
+.try span:nth-of-type(4n) {
+  color: #b25926;
 }
-.try span{
-margin-right: -10px;
+.try span {
+  margin-right: -1px;
 }
-.middle{
-margin-top:-0.1em
+.middle {
+  margin-top: 0.005em;
 }
-.last{
-margin-top:0.05em
+.last {
+  margin-top: 0.05em;
 }

@@ -119,10 +119,10 @@ body {
     transform: translateY(0px);
   }
   40% {
-    transform: translateY(-73px);
+    transform: translateY(-80px);
   }
   65% {
-    transform: translateY(-73px);
+    transform: translateY(-80px);
   }
   75%,
   100% {

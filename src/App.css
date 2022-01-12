@@ -31,7 +31,7 @@ body {
     }
     .title-welcome{
       width: 100vw !important;
-      margin-left: -6.5rem !important;
+      margin-left: -6.9rem !important;
       font-size: 3rem !important;
       line-height: 3rem !important;
       padding-left: 2rem !important;
@@ -50,13 +50,13 @@ body {
   }
   .main h1 {
     width: 100vw !important;
-    margin-left: -6.5rem !important;
+    margin-left: -6.9rem !important;
     font-size: 3rem !important;
     padding-left: 2rem !important;
   }
   .body-welcome{
     width: 100vw !important;
-    margin-left: -7rem !important;
+    margin-left: -7.5rem !important;
     font-weight: 250 !important;
     padding-top: -1rem !important;
     font-size: 2rem !important;

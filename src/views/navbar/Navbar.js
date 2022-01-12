@@ -15,6 +15,15 @@ import LogoColegio from "../../logo/Logo.svg";
 
 export default function Navbar() {
     const [displayHamburger, changeDisplayHamburger] = useState("none");
+
+    const handleOnClickClose = () => {
+        changeDisplayHamburger("none")
+    }
+
+    const handleOnClickOpen = () => {
+        changeDisplayHamburger("felx")
+    }
+
     const [isSmallScreen] = useMediaQuery("(max-width: 1014px)");
     return (
         <div className="navbar-container">
@@ -49,6 +58,7 @@ export default function Navbar() {
                                 ml={-150}
 
 
+
                             // w="37rem"
 
                             >
@@ -66,6 +76,7 @@ export default function Navbar() {
                                     color: "#000",
                                 }}
                                 pr={50}
+
                             >
                                 Testimonios
                             </Link>
@@ -81,6 +92,7 @@ export default function Navbar() {
                                     color: "#000",
                                 }}
                                 pr={50}
+
 
                             >
                                 Galería
@@ -113,18 +125,19 @@ export default function Navbar() {
                             size="lg"
                             mr={2}
                             icon={<HamburgerIcon />}
-                            onClick={() => changeDisplayHamburger("flex")}
+                            onClick={handleOnClickOpen}
                         />
                     </Box>
                 </Flex>
             </Flex >
             {/* Mobile Content */}
             < Flex
+                className="hamburguer-mobile"
                 w="100vw"
                 display={displayHamburger}
                 bgColor="gray.50"
                 zIndex={20}
-                h="40vh"
+                h="100vh"
                 pos="fixed"
                 top="0"
                 left="0"
@@ -140,7 +153,7 @@ export default function Navbar() {
                         size="lg"
                         icon={<CloseIcon />}
 
-                        onClick={() => changeDisplayHamburger("none")}
+                        onClick={handleOnClickClose}
                     />
                 </Flex>
 
@@ -154,6 +167,7 @@ export default function Navbar() {
                             color: "#000",
                         }}
                         py={4}
+                        onClick={handleOnClickClose}
                     >
                         Nuestro Colegio
                     </Link>
@@ -167,6 +181,7 @@ export default function Navbar() {
                             color: "#000",
                         }}
                         py={4}
+                        onClick={handleOnClickClose}
                     >
                         Testimonios
                     </Link>
@@ -181,6 +196,7 @@ export default function Navbar() {
                             color: "#000",
                         }}
                         py={5}
+                        onClick={handleOnClickClose}
                     >
                         Galería
                     </Link>
@@ -195,6 +211,7 @@ export default function Navbar() {
                             color: "#000",
                         }}
                         py={5}
+                        onClick={handleOnClickClose}
                     >
                         Matricula 2022
                     </Link>

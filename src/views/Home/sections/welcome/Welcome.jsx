@@ -1,16 +1,17 @@
 import { Box, Center, Flex, Heading, Text } from "@chakra-ui/react";
-
+import { useMediaQuery } from "@chakra-ui/react";
 
 export default function Welcome() {
+    const [isSmallScreen] = useMediaQuery("(max-width: 1014px)");
 
     return (
         <div className="welcome-background">
 
 
-            <Flex width="100vw" height="50vh">
-                <Flex direction="column" justifyContent="center" width="50vw" alignItems="center">
+            <Flex className="welcome-container" direction={isSmallScreen ? "column" : "row"} width="100vw" height="50vh" alignItems={isSmallScreen ? "center" : "center"}>
+                <Flex className="welcome-body-container" direction="column" justifyContent="center" width="50vw" alignItems="center">
                     <Box width="30vw" >
-                        <Text className="h1-welcome" fontSize='7xl' fontWeight={800} lineHeight="5rem">Creemos en <br />una educación
+                        <Text className="title-welcome" fontSize='7xl' fontWeight={800} lineHeight="5rem">Creemos en <br />una educación
 
                         </Text>
                         <div className="main">

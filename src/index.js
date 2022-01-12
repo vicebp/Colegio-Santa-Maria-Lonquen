@@ -4,7 +4,7 @@ import './index.css';
 import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ChakraProvider, extendTheme } from '@chakra-ui/react'
+import { ChakraProvider, extendTheme, Heading } from '@chakra-ui/react'
 import Fonts from "/home/vicebp/trabajos/colegiosml/src/fonts/Fonts.js"
 const theme = extendTheme({
   fonts: {
@@ -16,7 +16,6 @@ const theme = extendTheme({
 
 ReactDOM.render(
   <React.StrictMode>
-
     <ChakraProvider theme={theme}>
       <Fonts />
       <App />

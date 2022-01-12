@@ -38,15 +38,16 @@ export default function Navbar() {
                                 href="#nuestro-colegio"
                                 textAlign={"center"}
 
-                                fontSize={"md"}
-                                fontWeight={500}
+                                fontSize={"xl"}
+                                fontWeight={200}
                                 color={"#000"}
                                 _hover={{
                                     textDecoration: "none",
                                     color: "#000",
                                 }}
                                 pr={50}
-                                ml={-100}
+                                ml={-150}
+
 
                             // w="37rem"
 
@@ -57,8 +58,8 @@ export default function Navbar() {
                             <Link
                                 className="links-navbar"
                                 href="#nuestro-colegio"
-                                fontSize={"md"}
-                                fontWeight={500}
+                                fontSize={"xl"}
+                                fontWeight={200}
                                 color={"#000"}
                                 _hover={{
                                     textDecoration: "none",
@@ -72,8 +73,8 @@ export default function Navbar() {
                             <Link
                                 className="links-navbar"
                                 href="#nuestro-colegio"
-                                fontSize={"md"}
-                                fontWeight={500}
+                                fontSize={"xl"}
+                                fontWeight={200}
                                 color={"#000"}
                                 _hover={{
                                     textDecoration: "none",

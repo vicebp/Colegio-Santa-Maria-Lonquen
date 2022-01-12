@@ -76,3 +76,95 @@ body {
   background-size: cover;
 }
 
+.main{
+  position: absolute;
+  height: auto;
+  width: 80%;
+  margin:auto auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.main h1{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  font-size: 4.8em;
+  font-weight: 700;
+
+}
+.main h1 div{
+
+  margin: 0;
+  position: relative;
+  width: auto;
+  height: 76px;
+  z-index: -1;
+  color: #3498db;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main h1 div ul{
+  margin-top:-0.1em ;
+  padding:0;
+  width: 30rem;
+  text-align: left;
+  animation:animate 6s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+      transform: translateY(0px);
+  }
+  30%{
+      transform: translateY(0px);
+  }
+  40%{
+      transform: translateY(-66px);
+  }
+  65%{
+      transform: translateY(-66px);
+  }
+  75%,100%{
+      transform: translateY(-130px);
+  }
+}
+.main h1 div ul li{
+  list-style-type: none;
+  height: 70px;
+  width: auto;
+}
+.main p{
+  position: relative;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #ff0;
+  letter-spacing: 2px;
+  margin-left:-5%;
+
+}
+.try span:nth-of-type(4n-3){
+color:#2176ff;
+}
+.try span:nth-of-type(4n-2){
+color:#ff86c8;
+}
+.try span:nth-of-type(4n-1){
+color:#fa9348;
+}
+.try span:nth-of-type(4n){
+color:#b25926;
+}
+.try span{
+margin-right: -10px;
+}
+.middle{
+margin-top:-0.1em
+}
+.last{
+margin-top:0.05em
+}

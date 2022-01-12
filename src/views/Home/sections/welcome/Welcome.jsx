@@ -2,24 +2,72 @@ import { Box, Center, Flex, Heading, Text } from "@chakra-ui/react";
 
 
 export default function Welcome() {
+
     return (
         <div className="welcome-background">
 
 
-            <Flex >
-                <Flex flexDirection={"column"}>
-                    <Center height='50vh' width="50vw">
+            <Flex width="100vw" height="50vh">
+                <Flex direction="column" justifyContent="center" width="50vw" alignItems="center">
+                    <Box width="30vw" >
+                        <Text className="h1-welcome" fontSize='7xl' fontWeight={800} lineHeight="5rem">Creemos en <br />una educación
 
-                        <Text className="h1-welcome" fontSize='6xl' fontWeight={800}>Creemos en una educación diferente</Text>
-                        <Text className="h1-welcome" fontSize='3xl' fontWeight={200} > En un espacio libre y amistoso, lleno de amor y contención.
+                        </Text>
+                        <div className="main">
+
+                            <h1>
+                                <div>
+                                    <ul>
+                                        <li className="try">
+
+                                            <span>d</span>
+                                            <span>i</span>
+                                            <span>f</span>
+                                            <span>e</span>
+                                            <span>r</span>
+                                            <span>e</span>
+                                            <span>n</span>
+                                            <span>t</span>
+                                            <span>e</span>
+
+                                        </li>
+                                        <li className="try middle">
+                                            <span>c</span>
+                                            <span>e</span>
+                                            <span>r</span>
+                                            <span>c</span>
+                                            <span>a</span>
+                                            <span>n</span>
+                                            <span>a</span>
+                                        </li>
+                                        <li className="try last">
+                                            <span>i</span>
+                                            <span>n</span>
+                                            <span>c</span>
+                                            <span>l</span>
+                                            <span>u</span>
+                                            <span>s</span>
+                                            <span>i</span>
+                                            <span>v</span>
+                                            <span>a</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </h1>
+                        </div>
+
+                        <Text className="h1-welcome" fontSize='2xl' fontWeight={200} textAlign="justify" width="23vw" pt={"1rem"}> En un espacio libre y amistoso, lleno de amor y contención.
                             El contacto, permanente con la naturaleza, los hace amarla y protegerla</Text>
+                        <Text className="h1-welcome" fontSize='2xl' fontWeight={150} textAlign="justify" width="23vw" color="#8d8d8d" fontStyle="italic" pt={"1rem"}> "Nadie destruye lo que ama"</Text>
+                    </Box>
 
-                    </Center>
                 </Flex>
 
-                <Center height='50vh' width="50vw">
-                    <Text className="h1-welcome" fontSize='6xl' fontWeight={400} fontStyle='italic'>Creemos en una educación diferente</Text>
-                </Center>
+                <Flex direction="column" justifyContent="center" width="50vw" alignItems="center">
+                    <Box width="30vw" >
+                        <Text className="h1-welcome" fontSize='6xl' fontWeight={800}>Creemos en una educación diferente</Text>
+                    </Box>
+                </Flex>
             </Flex>
         </div>
 

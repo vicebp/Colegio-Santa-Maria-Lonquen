@@ -113,10 +113,10 @@ body {
 
 @keyframes animate {
   0% {
-    transform: translateY(0px);
+    transform: translateY(-1.7px);
   }
   30% {
-    transform: translateY(0px);
+    transform: translateY(-1.7px);
   }
   40% {
     transform: translateY(-80px);

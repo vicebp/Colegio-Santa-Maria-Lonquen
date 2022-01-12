@@ -65,3 +65,19 @@ body {
   left: -45px;
   top: -1px;
 }
+
+.welcome-background{
+  background-image:url(./assets/background-monte.svg);
+  height: 100%; 
+  width: 100%;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+ 
+}
+
+.welcome-container{
+  
+}

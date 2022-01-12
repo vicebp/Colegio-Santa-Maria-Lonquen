@@ -4,12 +4,22 @@ import './index.css';
 import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider, extendTheme } from '@chakra-ui/react'
+import Fonts from "/home/vicebp/trabajos/colegiosml/src/fonts/Fonts.js"
+const theme = extendTheme({
+  fonts: {
+    heading: "TT commons",
+    body: "TT commons",
+  },
+})
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <ChakraProvider>
-    <App />
+
+    <ChakraProvider theme={theme}>
+      <Fonts />
+      <App />
     </ChakraProvider>
   </React.StrictMode>,
   document.getElementById('root')

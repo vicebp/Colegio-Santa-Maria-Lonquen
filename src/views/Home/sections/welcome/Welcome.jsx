@@ -1,12 +1,21 @@
-import { Box, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Center, Flex, Text } from "@chakra-ui/react";
+
 
 export default function Welcome() {
     return (
-        <Box backgroundImage="url('./assets/background-monte.svg')"
-            backgroundPosition="center"
-            backgroundRepeat="no-repeat">
+        <div className="welcome-background">
 
+            <Flex>
+                <Center height='50vh' width="50vw">
 
-        </Box>
+                    <Text className="h1-welcome" fontSize='6xl'>Creemos en una educación diferente</Text>
+                </Center>
+
+                <Center height='50vh' width="50vw">
+                    <Text className="h1-welcome" fontSize='6xl' fontWeight={700}>Creemos en una educación diferente g</Text>
+                </Center>
+            </Flex>
+        </div>
+
     )
 }

@@ -22,11 +22,46 @@ body {
   .link-list {
     display: none !important;
   }
+}
+
+@media (max-width: 428px) {
+  .welcome-body-container{
+      width: 100vw !important;
+  
+    }
+    .title-welcome{
+      width: 100vw !important;
+      margin-left: -6.5rem !important;
+      font-size: 3rem !important;
+      line-height: 3rem !important;
+    }
+
+
   .logo-container {
     overflow: hidden !important;
     padding-left: 0 !important;
     display: flex !important;
     justify-content: center !important;
+  }
+.main h1 div{
+  z-index: 1 !important;
+  }
+  .main h1 {
+    width: 100vw !important;
+    margin-left: -6.5rem !important;
+    font-size: 3rem !important;
+  }
+  .body-welcome{
+    width: 100vw !important;
+    margin-left: -7rem !important;
+    font-weight: 250 !important;
+    padding-top: -1rem !important;
+    font-size: 2rem !important;
+    text-align: left  !important;
+    padding: 2rem !important;
+  }
+  .sentence-welcome{
+    display: none;
   }
 }
 
@@ -150,7 +185,7 @@ body {
   color: #ff86c8;
 }
 .try span:nth-of-type(4n-1) {
-  color: #fa9348;
+  color: #1de480;
 }
 .try span:nth-of-type(4n) {
   color: #b25926;

@@ -57,16 +57,16 @@ export default function Welcome() {
                             </h1>
                         </div>
 
-                        <Text className="h1-welcome" fontSize='2xl' fontWeight={200} textAlign="justify" width="23vw" pt={"1rem"}> En un espacio libre y amistoso, lleno de amor y contención.
+                        <Text className="body-welcome" fontSize='2xl' fontWeight={200} textAlign="justify" width="23vw" pt={"1rem"}> En un espacio libre y amistoso, lleno de amor y contención.
                             El contacto, permanente con la naturaleza, los hace amarla y protegerla</Text>
-                        <Text className="h1-welcome" fontSize='2xl' fontWeight={150} textAlign="justify" width="23vw" color="#8d8d8d" fontStyle="italic" pt={"1rem"}> "Nadie destruye lo que ama"</Text>
+                        <Text className="sentence-welcome" fontSize='2xl' fontWeight={150} textAlign="justify" width="23vw" color="#8d8d8d" fontStyle="italic" pt={"1rem"}> "Nadie destruye lo que ama"</Text>
                     </Box>
 
                 </Flex>
 
                 <Flex direction="column" justifyContent="center" width="50vw" alignItems="center">
                     <Box width="30vw" >
-                        <Text className="h1-welcome" fontSize='6xl' fontWeight={800}>Creemos en una educación diferente</Text>
+                        <Text fontSize='6xl' fontWeight={800}>Creemos en una educación diferente</Text>
                     </Box>
                 </Flex>
             </Flex>
